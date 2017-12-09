@@ -1,0 +1,48 @@
+body{
+	background: url('../images/bootcamps2b.jpeg') center center fixed;
+	width: 100%;
+	font-size: 30px;
+}
+
+h2, #message, #finalMessage{
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-color: red;
+}
+
+.btn-primary,.reset{
+	background-color: black;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover{
+ background-color: black;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+.ceChoix:hover{
+	background-color: black;
+	color: red;
+	padding: 10px;
+}
+
+#gif{
+	margin: 30px;
+}
+
+@media screen and (max-width:640px){
+	 .container{
+		 width: 500px;
+		 margin-top: 200px;
+		 size: 200%;
+	 }
+}
