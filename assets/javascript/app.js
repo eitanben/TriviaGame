@@ -64,12 +64,12 @@ var juegoTrivia = [{
 {
 		pregunta: "What is the main reason that students drop out?",
 		listeResponses: ["No Time To Study", "Lousy Instructor", "Not Much Teaching Going On", "Too Fast"],
-	response: 3
+		response: 3
 },
 {
 		pregunta: "Are you learning ENOUGH coding to PASS a technical whiteboard interview? ",
 		listeResponses: ["Don't know", "Maybe", "Everything is Possible", "Fuggedaboutit"],
-		response: 3
+		response: 2
 }];
 
 $('#startBtn').on('click', function(){
